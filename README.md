@@ -97,3 +97,11 @@ For example, if the folder you are using is '~/pebble-dev', then run the followi
 ```
 sudo chmod -R 777 ~/pebble-dev
 ```
+
+
+## Compile Dockerfile Manually
+```sh
+git clone https://github.com/raferg/docker-pebble-dev.git && \
+cd docker-pebble-dev && \
+sudo docker build -t raferg/pebble-dev .
+```
